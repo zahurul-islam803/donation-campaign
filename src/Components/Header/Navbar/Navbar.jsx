@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <div className="bg">
         <div className="header">
-          <nav className="flex justify-between items-center max-w-[1600px] mx-auto pt-[50px] p-2">
+          <nav className="flex flex-col md:flex-row gap-8 justify-between items-center max-w-[1600px] mx-auto pt-[50px] p-5">
             <img src="https://i.ibb.co/8gYSBx4/Logo.png" alt="logo" />
             <ul className="flex gap-12">
               <li className="font-bold text-lg">
