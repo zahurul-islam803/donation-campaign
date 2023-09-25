@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.ibb.co/hcC4M5N/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_color": "#0052FF",
+    "description": "Explore a comprehensive selection of products and resources dedicated to enhancing your overall well-being. From fitness and nutrition essentials to wellness gadgets and self-care solutions, our Health category offers everything you need to prioritize a healthier lifestyle and achieve your personal wellness goals.",
+    "price": 195
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/JCqhFvC/Education.png",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_color": "#FF444A",
+    "description": "Unlock the power of knowledge with our Education category. Browse through a diverse array of courses, books, tools, and resources designed to fuel your intellectual growth and foster lifelong learning. Whether you're a student, a professional, or simply curious, our offerings will help you expand your horizons and achieve your educational aspirations.",
+    "price": 150
+  },
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/wMSmBDz/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_color": "#79C23F",
+    "description": "Elevate your style with our Clothing collection. Discover the latest trends and timeless classics to express your individuality through fashion. From casual wear to formal attire, we have a wide range of clothing options to suit your taste, ensuring you look and feel your best in every season.",
+    "price": 180
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/60V2LN4/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_color": "#F87147",
+    "description": "Indulge in a culinary journey with our Food category. Explore a delectable assortment of ingredients, gourmet delights, and kitchen essentials that will inspire your inner chef and elevate your dining experience. Whether you're a food enthusiast or a seasoned cook, we have everything you need to savor the flavors of life.",
+    "price": 190
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/hcC4M5N/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_color": "#0052FF",
+    "description": "Explore a comprehensive selection of products and resources dedicated to enhancing your overall well-being. From fitness and nutrition essentials to wellness gadgets and self-care solutions, our Health category offers everything you need to prioritize a healthier lifestyle and achieve your personal wellness goals.",
+    "price": 195
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/JCqhFvC/Education.png",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_color": "#FF444A",
+    "description": "Unlock the power of knowledge with our Education category. Browse through a diverse array of courses, books, tools, and resources designed to fuel your intellectual growth and foster lifelong learning. Whether you're a student, a professional, or simply curious, our offerings will help you expand your horizons and achieve your educational aspirations.",
+    "price": 150
+  },
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/wMSmBDz/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_color": "#79C23F",
+    "description": "Elevate your style with our Clothing collection. Discover the latest trends and timeless classics to express your individuality through fashion. From casual wear to formal attire, we have a wide range of clothing options to suit your taste, ensuring you look and feel your best in every season.",
+    "price": 180
+  },
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/60V2LN4/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_color": "#F87147",
+    "description": "Indulge in a culinary journey with our Food category. Explore a delectable assortment of ingredients, gourmet delights, and kitchen essentials that will inspire your inner chef and elevate your dining experience. Whether you're a food enthusiast or a seasoned cook, we have everything you need to savor the flavors of life.",
+    "price": 190
+  },
+  {
+    "id": 9,
+    "picture": "https://i.ibb.co/hcC4M5N/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_color": "#0052FF",
+    "description": "Explore a comprehensive selection of products and resources dedicated to enhancing your overall well-being. From fitness and nutrition essentials to wellness gadgets and self-care solutions, our Health category offers everything you need to prioritize a healthier lifestyle and achieve your personal wellness goals.",
+    "price": 195
+  },
+  {
+    "id": 10,
+    "picture": "https://i.ibb.co/JCqhFvC/Education.png",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_color": "#FF444A",
+    "description": "Unlock the power of knowledge with our Education category. Browse through a diverse array of courses, books, tools, and resources designed to fuel your intellectual growth and foster lifelong learning. Whether you're a student, a professional, or simply curious, our offerings will help you expand your horizons and achieve your educational aspirations.",
+    "price": 150
+  },
+  {
+    "id": 11,
+    "picture": "https://i.ibb.co/wMSmBDz/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_color": "#79C23F",
+    "description": "Elevate your style with our Clothing collection. Discover the latest trends and timeless classics to express your individuality through fashion. From casual wear to formal attire, we have a wide range of clothing options to suit your taste, ensuring you look and feel your best in every season.",
+    "price": 180
+  },
+  {
+    "id": 12,
+    "picture": "https://i.ibb.co/60V2LN4/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_color": "#F87147",
+    "description": "Indulge in a culinary journey with our Food category. Explore a delectable assortment of ingredients, gourmet delights, and kitchen essentials that will inspire your inner chef and elevate your dining experience. Whether you're a food enthusiast or a seasoned cook, we have everything you need to savor the flavors of life.",
+    "price": 190
+  }
+]

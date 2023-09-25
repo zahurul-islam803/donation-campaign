@@ -1,0 +1,18 @@
+.bg{
+  position: relative;
+}
+.bg::before{
+  content: '';
+  background-image: url("https://i.ibb.co/XV4Mq85/donaton-22.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.10;
+}
+.header{
+  position: relative;
+}
