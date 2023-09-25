@@ -1,7 +1,26 @@
 import PropTypes from "prop-types";
+import swal from "sweetalert";
 import CommonNav from "../../Components/CommonNav/CommonNav";
 import './CategoryDetailsCard.css';
 const CategoryDetailsCard = ({ category }) => {
+  const handleToDonate = ()=>{
+    const addedDonationArray = [];
+    const getDonation = JSON.parse(localStorage.getItem('donations'));
+    if(!getDonation){
+      addedDonationArray.push(category);
+      localStorage.setItem('donations', JSON.stringify(addedDonationArray));
+      swal("Success", "You successfully donate", "success");
+    }else{
+      const isExist = getDonation.find(donation => donation.id == category.id);
+      if(!isExist){
+        addedDonationArray.push(...getDonation, category);
+        localStorage.setItem('donations', JSON.stringify(addedDonationArray));
+        swal("Success", "You successfully donate", "success");
+      }else{
+        swal("Oops!!", "No Duplicate", "error");
+      }
+    }
+  }
   return (
     <div>
       <CommonNav></CommonNav>
@@ -11,8 +30,8 @@ const CategoryDetailsCard = ({ category }) => {
           src={category.picture}
           alt=""
         />
-        <div className="overlay">
-          <button
+        <div className="overlay lg:w-[1600px] lg:h-[120px]">
+          <button onClick={handleToDonate}
             className="btn-position"
             style={{
               background: category.text_color,
