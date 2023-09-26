@@ -4,7 +4,6 @@ import DonationCard from "./DonationCard";
 
 const Donation = () => {
   const [donations, setDonations] = useState([]);
-  const [totalPrice, setTotalPrice] = useState(0);
   const [isShow, setIsShow] = useState(false);
   const [hiddenBtn, setHiddenBtn] = useState(false);
 
@@ -12,8 +11,6 @@ const Donation = () => {
     const getDonationItems = JSON.parse(localStorage.getItem('donations'));
     if(getDonationItems){
       setDonations(getDonationItems);
-      const totalDonation = getDonationItems.reduce((prevValue, currentValue)=> prevValue + currentValue, 0);
-      setTotalPrice(totalDonation);
     }
   },[]);
   const handleToShowAll = () =>{
