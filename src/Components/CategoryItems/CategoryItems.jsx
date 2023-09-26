@@ -1,8 +1,7 @@
 import PropTypes from "prop-types";
 import CategoryCard from "./CategoryCard";
 
-const CategoryItems = ({ Categories, search }) => {
-  const searchItem = Categories.filter((categoryItem) => categoryItem.category.toLowerCase() == search);
+const CategoryItems = ({ Categories, filterData }) => {
   const displayData = Categories;
 
   return (
@@ -13,8 +12,8 @@ const CategoryItems = ({ Categories, search }) => {
           categoryItem={categoryItem}
         ></CategoryCard>
       ))}
-      {searchItem &&
-        searchItem.map((categoryItem) => (
+      {filterData &&
+        filterData.map((categoryItem) => (
           <CategoryCard
             key={categoryItem.id}
             categoryItem={categoryItem}
@@ -25,6 +24,6 @@ const CategoryItems = ({ Categories, search }) => {
 };
 CategoryItems.propTypes = {
   Categories: PropTypes.array,
-  search: PropTypes.string,
+  filterData: PropTypes.array,
 };
 export default CategoryItems;
