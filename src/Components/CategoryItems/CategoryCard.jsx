@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 const CategoryCard = ({ categoryItem }) => {
-  const { id, picture, title, category, category_bg,card_bg, text_color } =
+  const { id, picture, title, category, category_bg, card_bg, text_color } =
     categoryItem || {};
   return (
     <div>
